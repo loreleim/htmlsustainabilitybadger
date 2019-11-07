@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dosis:800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #104355;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+.mainContainer {
+  padding: 2rem;
+}
+
+.navContainer {
+  width: 100%;
+  height: 10vh;
+  background-color: #104355;
+}
