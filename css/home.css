@@ -32,20 +32,20 @@ p {
   text-align: center;
 }
 
-ul {
+nav ul {
   list-style: none;
   padding-top: 1rem;
 }
 
-li {
+nav li {
   display: inline-block;
   padding: 0.5rem;
   text-transform: uppercase;
 }
 
-a:link,
-a:visited,
-a:active {
+nav a:link,
+nav a:visited,
+nav a:active {
   color: white;
   text-decoration: none;
 }
