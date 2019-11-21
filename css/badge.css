@@ -39,3 +39,15 @@
 .scroll::-webkit-scrollbar {
   display: none;
 }
+.inventoryContainer h2 {
+  text-align: center;
+}
+
+/* Locked */
+
+.lockedContainer {
+}
+
+.lockedContainer h2 {
+  text-align: center;
+}
