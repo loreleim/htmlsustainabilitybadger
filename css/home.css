@@ -13,6 +13,12 @@ h1 {
   text-transform: uppercase;
   font-size: 2.5rem;
 }
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+}
 }
 
 p {
