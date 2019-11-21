@@ -39,6 +39,13 @@
 .scroll::-webkit-scrollbar {
   display: none;
 }
+
+/* Inventory */
+
+.inventoryContainer {
+  width: 100%;
+}
+
 .inventoryContainer h2 {
   text-align: center;
 }
