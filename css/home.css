@@ -67,9 +67,10 @@ p {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Navigation */
+
 nav ul {
   list-style: none;
-  padding-top: 1rem;
 }
 
 nav li {
@@ -85,8 +86,28 @@ nav a:active {
   text-decoration: none;
 }
 
-nav a:visited {
+nav #active a:link,
+nav #active a:visited,
+nav #active a:active {
   color: white;
+}
+
+nav #inactive1 a:link,
+nav #inactive1 a:visited,
+nav #inactive1 a:active {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+nav #inactive2 a:link,
+nav #inactive2 a:visited,
+nav #inactive2 a:active {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+nav #inactive3 a:link,
+nav #inactive3 a:visited,
+nav #inactive3 a:active {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Big Section */
