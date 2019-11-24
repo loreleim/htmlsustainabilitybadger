@@ -49,6 +49,22 @@ p {
   text-align: center;
 }
 
+/* Nav Icons */
+
+.iconPlaceholder {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+  margin-bottom: 0.25rem;
+}
+
+#activeIcon {
+  background-color: white;
+}
+
+#inactiveIcon {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
