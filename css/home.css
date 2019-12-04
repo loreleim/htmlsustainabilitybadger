@@ -28,25 +28,6 @@ p {
   font-family: "Barlow", sans-serif;
 }
 
-#logo {
-  background: url(../images/logo.svg);
-  width: 4rem;
-  height: 4rem;
-  cursor: pointer;
-  position: fixed;
-  background-repeat: no-repeat;
-  margin: 1rem;
-}
-
-.logo {
-  background: url(/images/green-logo.svg);
-  width: 10vh;
-  height: 10vh;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  display: inline-block;
-}
-
 .navContainer {
   font-family: "Dosis", sans-serif;
   width: 100%;
