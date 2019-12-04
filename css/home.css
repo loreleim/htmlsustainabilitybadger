@@ -159,6 +159,7 @@ nav #active a:active {
   height: 4rem;
   width: 3.7rem;
   margin: 0 auto;
+  margin-top: 1rem;
 }
 
 .video {
