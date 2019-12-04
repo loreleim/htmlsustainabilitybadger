@@ -154,6 +154,15 @@ nav #active a:active {
   height: 100%;
 }
 
+.circleContainer {
+  margin-top: 10vh;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6rem;
+  position: absolute;
+  background-color: #104355;
+  left: 50%;
+  margin-left: -50px;
 }
 
 .logo {
