@@ -70,3 +70,98 @@
 .lockedContainer h2 {
   text-align: center;
 }
+
+/*When User Scans*/
+
+.congratsText h2 {
+  font-size: 3rem;
+}
+
+.congratsText {
+  color: #104355;
+  text-align: center;
+  padding: 2rem;
+}
+
+.wavyBoi {
+  z-index: 0;
+}
+
+.videoContainer {
+  z-index: -1;
+}
+
+.bigBadgeContainer {
+  margin-top: 20vh;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 12rem;
+  position: absolute;
+  background-color: none;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 1;
+}
+
+.helpContainer {
+  width: 100%;
+  background-image: linear-gradient(#d9dae8, #9bd0da, #22c1c4);
+  padding: 2rem;
+}
+
+.roundedTips {
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.helpContainer h3 {
+  text-align: center;
+}
+
+.tipList {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.tipList p {
+  color: black;
+}
+
+.tipList li {
+  padding-bottom: 1rem;
+}
+
+.tipList b {
+  color: #104355;
+}
+
+.resourceList {
+  list-style: none;
+}
+
+.resourceList li {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.resourceList a:hover {
+  color: #092e3b;
+  transition: 0.2s;
+}
+
+.resourceList a:visited,
+.resourceList a:active,
+.resourceList a:visited,
+.resourceList a:active,
+.resourceList a:link {
+  color: #104355;
+  text-decoration: none;
+}
