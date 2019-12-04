@@ -82,55 +82,18 @@ nav #active a:active {
   color: white;
 }
 
-nav #inactive1 a:link,
-nav #inactive1 a:visited,
-nav #inactive1 a:active {
-  color: rgba(0, 0, 0, 0.8);
-}
-
-nav #inactive2 a:link,
-nav #inactive2 a:visited,
-nav #inactive2 a:active {
-  color: rgba(0, 0, 0, 0.8);
-}
-
-nav #inactive3 a:link,
-nav #inactive3 a:visited,
-nav #inactive3 a:active {
-  color: rgba(0, 0, 0, 0.8);
-}
-
-/* Big Section */
-
 .bigSection {
   width: 100%;
   height: 100%;
 }
 
-.overlayContainer {
-  width: 100%;
-  height: 10rem;
-  text-align: center;
-  position: fixed;
-  margin-top: 8vh;
 }
 
-.overlayLogo {
-  width: 10rem;
   margin: 0 auto;
-}
-
-/* Standardized Hero */
-
-.heroImage {
-  width: 100%;
-  height: 40vh;
-  overflow: hidden;
 }
 
 .video {
   width: 100%;
-  height: 40vh;
   overflow: hidden;
 }
 
@@ -142,7 +105,6 @@ video {
 .siteTitle {
   width: 100%;
   text-align: center;
-  padding: 2rem;
 }
 
 .pageTitle {
