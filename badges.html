@@ -13,78 +13,132 @@
     <link rel="icon" href="images/badgerlogo128.png" />
   </head>
   <header>
-    <div class="navContainer">
-      <nav>
-        <ul>
-          <li id="inactive1">
-            <a href="./index.html">Home</a>
-          </li>
-          <li id="active">
-            <a href="/">Badges</a>
-          </li>
-          <li id="inactive2">
-            <a href="about.html">About</a>
-          </li>
-          <li id="inactive3">
-            <a href="login.html">Login</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+      <div class="navContainer">
+        <nav>
+          <ul>
+            <li id="inactive1">
+              <a href="index.html">
+                <div id="inactiveIcon" class="iconPlaceholder"></div>
+                Home
+              </a>
+            </li>
+            <li id="active">
+              <a href="badges.html">
+                <div id="activeIcon" class="iconPlaceholder"></div>
+                Badges
+              </a>
+            </li>
+            <li id="inactive2">
+              <a href="about.html">
+                <div id="inactiveIcon" class="iconPlaceholder"></div>
+                About
+              </a>
+            </li>
+            <li id="inactive3">
+              <a href="login.html">
+                <div id="inactiveIcon" class="iconPlaceholder"></div>
+                Login
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   <body>
     <div class="mainContainer">
       <section>
         <div class="pageTitle">
           <h1>Badges</h1>
         </div>
-        <div class=recentlyVisitedContainer>
-            <h2>Recently Visited</h2>
-            <div class="scroll">  
-              <ul class="badgeList">
+        <div class="childContainer">
+          <div class="heroImage">        
+            <div class=recentlyVisitedContainer>
+              <div class="scroll">  
+                <ul class="badgeList">
+                  <li>
+                    <a href="badges/water.html">
+                      <img src="images/badges/water.svg"></img>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="badges/recycling.html">
+                      <img src="images/badges/recycling.svg"></img>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="badges/blueline.html">
+                      <img src="images/badges/blueline.svg"></img>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="badges/redline.html">
+                      <img src="images/badges/redline.svg"></img></a>
+                  </li>
+                  <li>
+                    <a href="badges/electricity.html">
+                      <img src="images/badges/electricity.svg"></img></a>
+                  </li>
+                  <li>
+                    <a href="badges/fish.html">
+                      <img src="images/badges/fish.svg"></img></a>
+                  </li>
+                  <li>
+                    <a href="badges/waste.html">
+                      <img src="images/badges/waste.svg"></img></a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+      </div>
+        </div>
+        <div class="tipContainer">
+            <h2>Current Badge Inventory</h2>
+            <div class="cookiesTipContainer">
+              <p>
+                To view your badge inventory allow your website cookies or login to your
+                account now!
+              </p>
+            </div>
+            <div class="homeCreateAccount">
+              <div class="button">
+                <button>Create Acccount</button>
+              </div>
+            </div>
+            <div class="homeSignIn">
+              <div class="button">
+                <button>Sign In</button>
+              </div>
+            </div>
+        </div>
+        <div class="tipContainer">
+            <h2>Locked Badges</h2>
+            <ul class="badgeList">
                 <li>
                   <a href="badges/water.html">
-                    <img src="images/badges/water.svg"></img>
-                    <!--<p>Water Badge</p>-->
+                    <img src="images/badges/locked.svg"></img>
                   </a>
                 </li>
                 <li>
                   <a href="badges/recycling.html">
-                    <img src="images/badges/recycling.svg"></img>
-                    <!--<p>Water Badge</p>-->
+                    <img src="images/badges/locked.svg"></img>
                   </a>
                 </li>
                 <li>
                   <a href="badges/blueline.html">
-                    <img src="images/badges/blueline.svg"></img>
-                    <!--<p>Water Badge</p>-->
+                    <img src="images/badges/locked.svg"></img>
                   </a>
                 </li>
                 <li>
                   <a href="badges/redline.html">
-                    <img src="images/badges/redline.svg"></img></a>
+                    <img src="images/badges/locked.svg"></img></a>
                 </li>
                 <li>
                   <a href="badges/electricity.html">
-                    <img src="images/badges/electricity.svg"></img></a>
-                </li>
-                <li>
-                  <a href="badges/fish.html">
-                    <img src="images/badges/fish.svg"></img></a>
-                </li>
-                <li>
-                  <a href="badges/waste.html">
-                    <img src="images/badges/waste.svg"></img></a>
+                    <img src="images/badges/locked.svg"></img></a>
                 </li>
               </ul>
-            </div>
         </div>
-        <div class="inventoryContainer">
-          <h2>Inventory</h2>
-        </div>
-        <div class="lockedContainer">
-          <h2>Locked Badges</h2>
-        </div>
+        <div class="emptyContainer"></div>
       </section>
     </div>
   </body>

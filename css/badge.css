@@ -1,10 +1,19 @@
+.heroImage {
+  background-color: #d9dae8;
+}
+
 .recentlyVisitedContainer {
   width: 100%;
   padding: 2rem;
 }
 
+.recentContainer {
+  padding-top: 3rem;
+}
+
 .recentlyVisitedContainer h2 {
   text-align: center;
+  color: white;
 }
 
 .badgeList a:link,
@@ -22,7 +31,7 @@
 }
 
 .badgeList li {
-  width: 6rem;
+  width: 10rem;
   margin: 0 auto;
   display: inline-block;
   margin-right: 0.5rem;
