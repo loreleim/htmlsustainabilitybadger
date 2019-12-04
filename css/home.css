@@ -156,6 +156,8 @@ nav #active a:active {
 
 .logo {
   background: url(../images/white-logo.svg) no-repeat;
+  height: 4rem;
+  width: 3.7rem;
   margin: 0 auto;
 }
 
