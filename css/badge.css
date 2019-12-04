@@ -64,6 +64,7 @@
 /* Locked */
 
 .lockedContainer {
+  width: 100%;
 }
 
 .lockedContainer h2 {
