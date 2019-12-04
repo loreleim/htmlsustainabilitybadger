@@ -159,6 +159,7 @@ nav #active a:active {
 
 .video {
   width: 100%;
+  height: 45vh;
   overflow: hidden;
 }
 
