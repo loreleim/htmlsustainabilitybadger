@@ -49,6 +49,71 @@ p {
   margin-bottom: 0.25rem;
 }
 
+/*Home Icon*/
+
+.homeIcon {
+  background: url(../images/nav/home.svg) no-repeat;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+.homeIcon:hover {
+  background: url(../images/nav/home-active.svg) no-repeat;
+  transition: ease-in-out 0.2s;
+}
+
+.homeIconActive {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  background: url(../images/nav/home-active.svg) no-repeat;
+}
+
+/*Badges Icon*/
+
+.badgeIcon {
+  background: url(../images/nav/badge.svg) no-repeat;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+.badgeIcon:hover {
+  background: url(../images/nav/badge-active.svg) no-repeat;
+  transition: ease-in-out 0.2s;
+}
+
+.badgeIconActive {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  background: url(../images/nav/badge-active.svg) no-repeat;
+}
+
+/*About Icon*/
+
+.aboutIcon {
+  background: url(../images/nav/about.svg) no-repeat;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+.aboutIcon:hover {
+  background: url(../images/nav/about-active.svg) no-repeat;
+  transition: ease-in-out 0.2s;
+}
+
+.aboutIconActive {
+  background: url(../images/nav/about-active.svg) no-repeat;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+/*Nav Text Handlers*/
+
 #activeIcon {
   background-color: white;
 }
